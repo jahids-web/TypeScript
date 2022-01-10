@@ -4,3 +4,7 @@ let id = 5;
 let company = 'Type Media';
 let inPublished = true;
 console.log("Hello World");
+let ids = [1, 2, 3, 4, 5];
+let arr = [1, true, 'hello'];
+//Tuple
+let person = [1, 'Book', true];

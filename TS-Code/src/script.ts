@@ -3,3 +3,10 @@ let id: number = 5
 let company: string = 'Type Media'
 let inPublished: boolean = true
 console.log("Hello World")
+
+
+let ids: number[] = [1,2,3,4,5]
+let arr: any[] = [1, true,'hello']
+
+//Tuple
+let person: [number, string, boolean] = [1,'Book', true]
