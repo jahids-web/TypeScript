@@ -27,3 +27,16 @@ var Direction1;
     Direction1[Direction1["Right"] = 4] = "Right";
 })(Direction1 || (Direction1 = {}));
 console.log(Direction1.Left);
+//functions
+function addNum(x, y) {
+    return x + y;
+}
+console.log(addNum(5, 5));
+//Loops
+var num = 5;
+var i;
+var factorial = 1;
+for (i = num; i >= 1; i--) {
+    factorial *= i;
+}
+console.log(factorial);

@@ -35,3 +35,13 @@ function addNum (x: number, y: number): number{
     return x + y
 }
 console.log(addNum(5,5))
+
+//Loops
+var num: number = 5;
+var i: number;
+var factorial = 1;
+
+for (i = num; i >= 1; i--) {
+    factorial *= i;
+}
+console.log(factorial)
