@@ -29,3 +29,4 @@ enum Direction1 {
     Right
 }
 console.log(Direction1.Left)
+
