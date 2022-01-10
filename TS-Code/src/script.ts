@@ -30,3 +30,8 @@ enum Direction1 {
 }
 console.log(Direction1.Left)
 
+//functions
+function addNum (x: number, y: number): number{
+    return x + y
+}
+console.log(addNum(5,5))
